@@ -1,0 +1,13 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "examples/simple-map/Cargo.toml",
+    "Cargo.toml"
+  ],
+  "rust-analyzer.check.allTargets": false,
+  "rust-analyzer.cargo.target": "wasm32-unknown-unknown",
+  "rust-analyzer.check.command": "clippy",
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.codeActionWidget.includeNearbyQuickFixes": true,
+  "editor.formatOnSave": true,
+  "rust-analyzer.rustfmt.overrideCommand": ["leptosfmt", "--stdin", "--rustfmt"]
+}

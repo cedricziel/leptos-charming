@@ -1,0 +1,16 @@
+[package]
+name = "leptos-charming"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+charming = { workspace = true, features = ["wasm"] }
+leptos = { workspace = true }
+leptos_meta = { workspace = true, default-features = false }
+rand = { workspace = true }
+web-sys = { workspace = true }
+
+[features]
+hydrate = ["leptos/hydrate", "leptos_meta/hydrate"]
+csr = ["leptos/csr", "leptos_meta/csr"]
+ssr = ["leptos/ssr", "leptos_meta/ssr"]
