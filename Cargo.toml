@@ -6,7 +6,7 @@ exclude = ["examples"]
 
 [workspace.dependencies]
 charming = { git = "https://github.com/cedricziel/charming.git", branch = "cloneable" }
-leptos = "0.6.0"
+leptos = "0.6.12"
 leptos_meta = "0.6.0"
 rand = "0.8"
 web-sys = "0.3"
