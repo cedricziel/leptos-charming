@@ -148,7 +148,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "charming"
 version = "0.3.1"
-source = "git+https://github.com/cedricziel/charming.git?branch=cloneable#9d7a7882f142ed6cdb747ca96c2504644377e2c1"
+source = "git+https://github.com/cedricziel/charming.git?branch=cloneable#51b5d7ba66b2a3dc30e3151d3d57ab7b88e4c88c"
 dependencies = [
  "handlebars",
  "serde",
