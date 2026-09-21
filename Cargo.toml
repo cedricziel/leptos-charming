@@ -8,5 +8,5 @@ exclude = ["examples"]
 charming = { git = "https://github.com/cedricziel/charming.git", branch = "cloneable" }
 leptos = "0.6.15"
 leptos_meta = "0.6.15"
-rand = "0.9"
+rand = "0.10"
 web-sys = "0.3"
